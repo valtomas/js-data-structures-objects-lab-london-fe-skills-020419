@@ -2,4 +2,6 @@ var driver = {
   
 }
 
-updateDriverWithKeyAndValue(driver, key, value)
+function updateDriverWithKeyAndValue(driver, key, value) {
+  object.assign = (driver {key, value}) 
+}
