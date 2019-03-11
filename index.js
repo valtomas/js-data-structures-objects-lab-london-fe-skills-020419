@@ -3,7 +3,7 @@ var driver = {
 }
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  newdriver = driver;
+  var newdriver = driver;
   Object.assign = (newdriver, {key: value}) 
   return newdriver;
 }
