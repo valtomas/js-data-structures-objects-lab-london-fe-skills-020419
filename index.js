@@ -6,8 +6,9 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   // var updatedDriver = driver;
   // updatedDriver [key] = value; 
   // return updatedDriver;
-  let newData = 
-  return Object.assign(driver, {key: value})
+  let newData = {};
+  newData[key] = value;
+  return Object.assign(driver, newData)
 }
 
 
